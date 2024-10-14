@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        width: 250px; /* Sidebar width */
+        min-height: 100vh; /* Full height */
+        position: fixed; /* Fixed sidebar */
+        background-color: #333; /* Background color */
+        color: white; /* Text color */
+        border-right: 2px solid #ccc; /* Right border */
+      }
+
+      .navbar {
+        flex-direction: column; /* Stack links vertically */
+        padding: 1rem 0; /* Vertical padding */
+      }
+
+      .navbar-brand {
+        margin-bottom: 1rem; /* Space below brand */
+        text-align: center; /* Center brand */
+      }
+
+      .navbar-nav .nav-link {
+        margin: 10px 0; /* Spacing between links */
+        color: white; /* Link color */
+      }
+
+      .navbar-nav .nav-link:hover {
+        text-decoration: underline; /* Underline on hover */
+      }
+
+      main {
+        margin-left: 250px; /* Space for sidebar */
+        padding: 2rem; /* Padding for main content */
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Your Name</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div
+        class="bg-light text-dark text-center py-5"
+        style="border-bottom: 2px solid #ccc"
+      >
+        <h1>Your Name</h1>
+        <p>Front-End Developer | Vue.js Enthusiast</p>
+      </div>
+
+      <!-- About Me Section -->
+      <section id="about">
+        <div class="container">
+          <h2 class="text-center mb-4">About Me</h2>
+          <p>
+            Hi, I’m [Your Name], a front-end developer passionate about creating
+            visually appealing and user-friendly websites. I started learning
+            HTML, CSS, and JavaScript through the CS50 Introduction to Computer
+            Science course and have been building personal projects to hone my
+            skills ever since.
+          </p>
+          <p>
+            Currently, I’m working on improving my skills with Vue.js and
+            building responsive web applications. I enjoy collaborating with
+            teams to bring great ideas to life.
+          </p>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <div class="container">
+          <h2 class="text-center mb-4">Skills</h2>
+          <ul class="list-group">
+            <li class="list-group-item">HTML, CSS, JavaScript</li>
+            <li class="list-group-item">Vue.js</li>
+            <li class="list-group-item">Git, Notion</li>
+            <li class="list-group-item">Responsive Web Design</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience">
+        <div class="container">
+          <h2 class="text-center mb-4">Experience</h2>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <strong>WordPress Developer</strong> - Created a website for an
+              organization to host event information.
+            </li>
+            <li class="list-group-item">
+              <strong>Project Leadership</strong> - Led a community service
+              program (Kuliah Kerja Nyata) as a student unit coordinator.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="container">
+          <h2 class="text-center mb-4">Projects</h2>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <strong>To-Do List App</strong> - A simple task management app
+              using JavaScript.
+            </li>
+            <li class="list-group-item">
+              <strong>Weather App</strong> - A weather dashboard using the
+              OpenWeatherMap API.
+            </li>
+            <li class="list-group-item">
+              <strong>Personal Portfolio</strong> - This website! Created with
+              HTML, CSS, and JavaScript.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="container">
+          <h2 class="text-center mb-4">Contact</h2>
+          <p>
+            If you’d like to get in touch, feel free to email me at:
+            <strong>your.email@example.com</strong>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
