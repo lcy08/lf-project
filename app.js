@@ -33,6 +33,7 @@ button.addEventListener("click", () => {
   })
   navs.style.display = "flex"
   setTimeout(() => {
+    navs.style.transform = "scaleX(1)"
     navs.style.opacity = 1
   }, 10)
 })
