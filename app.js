@@ -1,11 +1,22 @@
-navs = document.querySelector('a:[href^="#"]')
+const text = "Lucky Feliyanto"
+const heading = document.querySelector('.head-container')
 
-navs.forEach((anchor) => {
-  anchor.addEventListener("click", (e) => {
-    e.preventDefault()
+let index = 0;
 
-    document
-      .querySelector(this.getAttribute("href"))
-      .scrollIntoView({ behavior: "smooth" })
-  })
-})
+const typeEffect = () => {
+  if (index <= text.length) {
+    document.getElementById("name-title").innerHTML += text.charAt(index)
+    index++
+    setTimeout(typeEffect, 150)
+  }
+}
+typeEffect()
+
+onscroll = () => {
+  if (heading.offsetTop > 500) {
+    heading.style.color = "#0F1035"
+  } else {
+    heading.style.color = ""
+  }
+}
+
