@@ -4,6 +4,7 @@ const button = document.querySelector(".button")
 const navs = document.querySelector(".nav")
 const sections = document.querySelectorAll("section")
 const footer = document.querySelector("footer")
+const start = document.querySelector("#start")
 
 let index = 0
 
@@ -24,8 +25,9 @@ onscroll = () => {
   }
 }
 
-button.addEventListener("click", () => {
-  
+button.addEventListener("click", (e) => {
+  e.preventDefault()
+
   footer.style.display = "block"
 
   sections.forEach((section) => {
@@ -33,7 +35,24 @@ button.addEventListener("click", () => {
   })
   navs.style.display = "flex"
   setTimeout(() => {
-    navs.style.transform = "scaleX(1)"
+    navs.style.transform = "translateY(0)"
     navs.style.opacity = 1
   }, 10)
+
+  button.style.opacity = "0"
+
+  const id = e.target.getAttribute("href")
+  const start = document.querySelector(id)
+
+  setTimeout(() => {
+    if (start) {
+      console.log(start)
+      scrollTo({
+        top: start.offsetTop,
+        behavior: "smooth",
+      })
+    }
+  }, 500)
+
+  
 })
