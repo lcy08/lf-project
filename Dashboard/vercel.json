@@ -12,6 +12,7 @@
             "dest": "/api/index.php"
         }
     ],
+    "engines": { "node": "18.x" },
     "env": {
         "APP_NAME": "Laravel Vercel",
         "APP_ENV": "production",
