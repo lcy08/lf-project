@@ -7,8 +7,6 @@
         document.addEventListener('DOMContentLoaded', function () {
             const contractRenewals = @json($contractData); // Pass the data to JavaScript
 
-            console.log(contractRenewals);
-
             const months = contractRenewals.map(item => item.month);
             
             const expiring = contractRenewals.map(item => -item.contracts_expiring); // Negate for expiring contracts

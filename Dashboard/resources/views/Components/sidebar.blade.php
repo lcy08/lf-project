@@ -1,5 +1,5 @@
 <aside {{ $attributes }}>
-    <div class="p-4 flex-grow">
+    <div class="pl-4 py-4 flex-grow">
     {{-- Logo --}}
         <div class="flex items-center mb-4 p-4">
             <img src="{{ asset('images/icon.png') }}" alt="Logo" class="h-10 w-10 mr-2">
