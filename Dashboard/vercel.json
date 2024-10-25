@@ -10,11 +10,8 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        }
-    ],
-    
-   "rewrites":  [
-       {"source": "/(.*)", "destination": "/"}
+        },
+        { "src": "/[^.]+", "dest": "/", "status": 200 }
     ],
 
     "env": {
