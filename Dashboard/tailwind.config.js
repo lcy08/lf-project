@@ -9,6 +9,7 @@ export default {
         "./resources/**/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
+        "./src/**/*.{html,js,svelte,ts}",
     ],
     theme: {
         extend: {
