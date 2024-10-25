@@ -8,21 +8,21 @@
     },
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "/api/(.*)",
             "dest": "/api/index.php"
         },
         {
-            "src": "/public/build/assets/(.*)\\.css",
+            "src": "/public/(.*)\\.css",
             "dest": "/public/build/assets/$1.css",
             "status": 200
         },
         {
-            "src": "/public/build/assets/(.*)\\.js",
+            "src": "/public/(.*)\\.js",
             "dest": "/public/build/assets/$1.js",
             "status": 200
         },
         {
-            "src": "/public/images/(.*)\\.png",
+            "src": "/public/(.*)\\.png",
             "dest": "/public/images/$1.png",
             "status": 200
         },
