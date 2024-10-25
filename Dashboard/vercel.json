@@ -8,17 +8,16 @@
     },
     "routes": [
         {
-            "src": "/api",
+            "src": "/(.*)",
             "dest": "/api/index.php"
         },
         {
             "src": "/(css|js|images)/(.*)",
-            "dest": "public/$1/$2"
+            "dest": "/"
         },
         {
             "src": "/(.*)\\.ico",
-            "dest": "/public/$1.ico",
-            "status": 200
+            "dest": "/",
         }
     ],
 
