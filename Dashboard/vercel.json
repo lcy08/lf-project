@@ -12,19 +12,8 @@
             "dest": "/api/index.php"
         },
         {
-            "src": "/(.*)\\.css",
-            "dest": "/public/build/assets/$1.css",
-            "status": 200
-        },
-        {
-            "src": "/(.*)\\.js",
-            "dest": "/public/build/assets/$1.js",
-            "status": 200
-        },
-        {
-            "src": "/(.*)\\.png",
-            "dest": "/public/images/$1.png",
-            "status": 200
+            "src": "/(css|js|images)/(.*)",
+            "dest": "public/$1/$2"
         },
         {
             "src": "/(.*)\\.ico",
