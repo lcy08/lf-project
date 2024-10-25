@@ -12,6 +12,11 @@
             "dest": "/api/index.php"
         }
     ],
+    
+   "rewrites":  [
+       {"source": "/(.*)", "destination": "/"}
+    ],
+
     "env": {
         "APP_NAME": "Dashboard",
         "APP_ENV": "production",
