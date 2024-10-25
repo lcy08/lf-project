@@ -12,11 +12,11 @@
             "dest": "/public/build/"
         },
         {
-            "src": "/resources/(.*)",
+            "src": "/images/(.*)",
             "dest": "/public/images/"
         },
         {
-            "src": "/favicon.ico",
+            "src": "/favicon.png",
             "dest": "/public/favicon.ico"
         },
         {
