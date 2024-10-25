@@ -4,6 +4,7 @@
 </div>
 
 <script>
+    document.addEventListener('DOMContentLoaded', function () {
     var revenueOptions = {
     series: [{
         name: 'Revenue',
@@ -41,4 +42,5 @@
 
 var revenueChart = new ApexCharts(document.querySelector("#revenueChart"), revenueOptions);
 revenueChart.render();
+    });
 </script>

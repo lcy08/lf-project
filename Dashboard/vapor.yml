@@ -1,15 +1,11 @@
-id: 66512
-name: Lucky
+id: 66548
+name: Dashboard
 environments:
   production:
-    database: personal
     memory: 1024
     cli-memory: 512
     runtime: "php-8.3:al2"
     build:
       - "composer install --no-dev"
       - "php artisan event:cache"
-      - "npm ci && npm run build && rm -rf node_modules"
-    deploy:
-      - "php artisan migrate --force"
-      - "php artisan db:seed --class=PropertyDataSeeder"
+      # - 'npm ci && npm run build && rm -rf node_modules'

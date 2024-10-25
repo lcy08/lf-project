@@ -4,6 +4,7 @@
 </div>
 
 <script>
+    document.addEventListener('DOMContentLoaded', function () {
     var maintenanceOptions = {
     series: [{
         name: 'Maintenance Costs',
@@ -42,4 +43,5 @@
 
 var maintenanceChart = new ApexCharts(document.querySelector("#maintenanceChart"), maintenanceOptions);
 maintenanceChart.render();
+    });
 </script>

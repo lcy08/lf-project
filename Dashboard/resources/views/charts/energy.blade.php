@@ -4,6 +4,7 @@
 </div>
 
 <script>
+    document.addEventListener('DOMContentLoaded', function () {
     var energyOptions = {
     series: [{
         name: 'Energy Consumption',
@@ -43,4 +44,5 @@
 
 var energyChart = new ApexCharts(document.querySelector("#energyChart"), energyOptions);
 energyChart.render();
+    });
 </script>

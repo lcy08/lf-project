@@ -5,6 +5,7 @@
 
 <script>
     // Occupancy Rate Chart
+    document.addEventListener('DOMContentLoaded', function () {
     var occupancyOptions = {
         series: [{
             name: 'Occupancy Rate',
@@ -44,4 +45,5 @@
 
     var occupancyChart = new ApexCharts(document.querySelector("#occupancyChart"), occupancyOptions);
     occupancyChart.render();
+});
 </script>
