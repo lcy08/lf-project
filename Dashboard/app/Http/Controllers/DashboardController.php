@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\OccupancyRate;
-use App\Models\RevenuePerSqM;
+use App\Models\RevenuePerSqm;
 use App\Models\EnergyConsumption;
 use App\Models\MaintenanceCost;
 use App\Models\ContractRenewal;
