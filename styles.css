@@ -121,6 +121,8 @@ p {
 
 .desc {
   box-shadow: 0px 10px 10px 0px rgba(15, 16, 53, 0.2);
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 #start {
