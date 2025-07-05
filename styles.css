@@ -2,8 +2,11 @@ body {
   background: #dcf2f1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav {
-  background: #0f1035;
   color: floralwhite;
   padding: 10px;
   display: none;
@@ -23,9 +26,9 @@ body {
 .video-container {
   position: absolute !important;
   z-index: -1;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover !important;
+  width: 85%;
+  height: 90vh;
+  object-fit: contain !important;
   overflow: hidden !important;
 }
 
@@ -56,8 +59,8 @@ body {
     rgba(15, 16, 53, 1),
     rgba(220, 242, 241, 0.75)
   );
-  height: 100vh;
-  width: 100%;
+  height: 90vh;
+  width: 100;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,12 +131,16 @@ p {
 section {
   max-width: 85%;
   margin: 2rem auto;
-  padding: 3rem;
-  background-color: #365486;
+  background-color: #0f1035;
   border-radius: 10px;
   box-shadow: 0 8px 8px rgba(15, 16, 53, 0.25);
   color: #dcf2f1;
   display: none;
+}
+
+.content {
+  margin: 2rem auto;
+  padding: 3rem;
 }
 
 .upper-container {
