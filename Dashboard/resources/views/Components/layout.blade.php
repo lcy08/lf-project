@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script
+      src="https://kit.fontawesome.com/fa387c549b.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Company Dashboard</title>
 </head>
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
@@ -24,9 +28,6 @@
             </main>
         </div>
 
-    <script
-      src="https://kit.fontawesome.com/fa387c549b.js"
-      crossorigin="anonymous"
-    ></script>
+    
 </body>
 </html>
