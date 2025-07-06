@@ -128,7 +128,7 @@ p {
 #start {
   height: 75px;
   visibility: hidden !important;
-  margin: 0 auto;
+  margin: 0 0 0 0;
   display: flex;
   padding: 0.5rem;
   justify-content: center;
