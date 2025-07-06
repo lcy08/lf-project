@@ -125,14 +125,14 @@ p {
   padding: 1rem;
 }
 
-#start {
+/* #start {
   height: 75px;
   visibility: hidden !important;
   margin: 0;
   display: flex;
   padding: 0;
   justify-content: center;
-}
+} */
 
 section {
   max-width: 85%;
