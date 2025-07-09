@@ -70,9 +70,11 @@ html {
 
 .head-container {
   position: sticky !important;
-  top: 10% !important;
+  top: 25% !important;
+  margin-top: 3vh;
   margin-bottom: 0px;
 }
+
 
 #name-title {
   font-family: "Playfair Display", serif;
@@ -135,6 +137,7 @@ section {
   box-shadow: 0 8px 8px rgba(15, 16, 53, 0.25);
   color: #dcf2f1;
   display: none;
+  
 }
 
 .content {
